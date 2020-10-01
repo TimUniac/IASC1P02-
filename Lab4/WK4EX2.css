@@ -1,0 +1,21 @@
+.purple{ border:1px purple dashed;
+        padding:10px;
+        padding-top: 200px;
+        text-align: center;}
+
+.green{color:green;
+        font-size: 8px;
+        text-align: center;}
+
+.orange{color: orange;
+        font-size: 20px;}
+
+#red{color: red;
+     vertical-align: super;}
+
+.hidden{font-size: 8px;
+        text-align: right;}
+
+.yellow{color:yellow}
+
+.last{color: purple;}

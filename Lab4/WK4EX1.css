@@ -1,0 +1,12 @@
+body{background-color: blue;}
+
+.bigbox{border: black 5px solid }
+
+.head{border:green 1px dashed;
+      margin: 10px;
+      padding:5px;
+      font-size: 10px;
+      color: red;}
+
+.image{border: white 1px dashed;
+        Padding: 20px}

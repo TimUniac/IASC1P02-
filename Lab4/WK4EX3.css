@@ -1,0 +1,18 @@
+body {background-color: black;}
+
+div {background-color: green;
+      border-top: white 20px solid;
+      border-bottom: white 20px solid;
+      margin-top: 20%;
+      margin-bottom: 20%;}
+
+.red{color: red;
+  border: black 2px dashed;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;}
+
+.green{color: darkgreen;}
+
+.purple{color: purple;
+        }
