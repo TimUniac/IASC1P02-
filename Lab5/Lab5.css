@@ -1,0 +1,14 @@
+p {color:blue;}
+.p1,.p3{color:green;}
+.p1{position: absolute;}
+.p2{position: fixed;
+    left: 5px;}
+.p3{position: relative;
+     top: 70px;}
+div p{color:purple;}
+
+
+img {min-width: 50%;
+      max-width: 100%;
+      min-height: inherit;
+      max-height: inherit;}

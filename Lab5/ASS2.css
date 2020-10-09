@@ -1,0 +1,51 @@
+body{
+		color:black;
+		background-color:gold;
+}
+
+.moxie{
+		color:green;
+	}
+
+.list1{
+		font-size: 8px
+}
+
+.head1{
+			font-family: helvetica;
+		}
+
+.suess{
+		text-transform: lowercase;
+}
+
+#ham1{
+		position: absolute;
+}
+
+#link1{
+		position: fixed;
+}
+
+#link2{
+		position: relative;left:200px;
+}
+
+
+body .list1{
+		color: red;
+}
+
+h1,h2,h3{
+		color:salmon;
+}
+
+#box{
+		margin: 3px;
+		border:3px blue solid;
+		padding: 3px;
+		width:500px;
+		height: 500px;
+		position:relative;left:500px;
+
+}

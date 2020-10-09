@@ -1,0 +1,43 @@
+body{
+	color:black;
+	background-color:black;
+}
+
+
+#wrapper{
+	width:1010px;
+	height: auto;
+	margin:0 auto;
+	background-color:white;
+	padding: 5px;
+}
+
+#board{
+	width:1000px;
+	height:500px;
+	background-color: green;
+
+}
+
+#content1{
+	float: left;
+	width:200px;
+	height: 200px;
+	background-color:blue;
+	position: relative; top:10px; left:150px;
+
+}
+#content2{
+	width:200px;
+	height:200px;
+	background:red;
+	position: relative; top: 10px; right:150px;
+	float: right;
+}
+#content3{
+	clear: both;
+	width:200px;
+	height:200px;
+	background:yellow;
+	position:relative; left:400px; top:10px;
+	}
