@@ -1,0 +1,197 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<title>Wizard or Fighter</title>
+	<link href="final.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="final.js"></script>
+</head>
+
+<body>
+	<div id="idea1">Have you been outside?
+	<form action="">
+	<input type: "radio" name="yn" value="Yes">Yes<br>
+	<input type: "radio" name="yn" value="No">No<br>
+	</form>
+	</div>
+	<div id="wrapper">
+		<p id="title">
+			Wizard or Fighter?
+		</p>
+
+<!--Wizard Bar-->
+<form id="wizardBar" action="">
+		<div id="wizard">
+			Wizard
+<!--main stats input section-->
+			<p class="statinput">
+				INT
+				<label for="intInput"></label>
+				<input type="number" class="int"/>
+		</p>
+		<p class="statinput">
+			AC
+			<label for="acInput"></label>
+			<input type="number" class="ac"/>
+		</p>
+		<p class="statinput">
+			Proficiency Bonus
+			<label for="pbInput"></label>
+			<input type="number" class="pb"/>
+		</p>
+		<p class="statinput">
+			HP
+			<label for="hpInput"></label>
+			<input type="number" class="hp"/>
+			</p>
+	<!--spell slot calculator-->
+<p>Spell Slots </p>
+	<div id="spellSlots">
+	<p>1st
+	<input type="number" id="first" value="0"/>
+	</p>
+	<p>2nd
+	<input type="number" id="second" value="0"/>
+	</p>
+	<p>3rd
+	<input type="number" id="third" value="0"/>
+	</p>
+	<p>4th
+	<input type="number" id="fourth" value="0"/>
+	</p>
+	<p>5th
+	<input type="number" id="fifth" value="0"/>
+	</p>
+	<p>6th
+	<input type="number" id="sixth" value="0"/>
+	</p>
+	<p>7th
+	<input type="number" id="seventh" value="0"/>
+	</p>
+	<p>8th
+	<input type="number" id="eighth" value="0"/>
+	</p>
+	<p>9th
+	<input type="number" id="ninth" value="0"/>
+	</p>
+</div>
+<button type="button" onclick="rollUp('wiz')">Roll Up!</button>
+</div>
+</form>
+
+<!--Fighter bar-->
+		<div id="fighter">
+			Fighter
+			<!--main stats input section-->
+			<p class="statinput">
+				INT
+				<label for="intInput"></label>
+				<input type="number" class="int"/>
+		</p>
+		<p class="statinput">
+			AC
+			<label for="acInput"></label>
+			<input type="number" class="ac"/>
+		</p>
+		<p class="statinput">
+			Proficiency Bonus
+			<label for="pbInput"></label>
+			<input type="number" class="pb"/>
+		</p>
+		<p class="statinput">
+			HP
+			<label for="hpInput"></label>
+			<input type="number" class="hp"/>
+			</p>
+			Weapons
+			<div class="weaponInput">
+				<p>
+					<!--weapon name-->
+					<label for="weaponName"></label>
+					Weapon Name---------HP--Dice--#----AC
+				</br>
+					<input type="text" class="weaponName" value=""/>
+					<!--Hit/DC Mod-->
+					<label for="weaponHit"></label>
+						<input type="number" class="weaponHit"/>
+					<!--damage calculator dice size, how many and any bonus.... no room for added bonus's of poison or whatever-->
+					<label for="diceSize"></label>
+					<input type="number" class="diceSize"/>
+					<label for="diceNum"></label>
+					<input type="number" class="diceNum"/>
+					<label for="damBonus"></label>
+					<input type="number" class="damBonus"/>
+				</p>
+			</div>
+			<div class="weaponInput">
+				<p>
+					<!--weapon name-->
+					<label for="weaponName"></label>
+					Weapon Name---------HP--Dice--#----AC
+				</br>
+					<input type="text" class="weaponName" value=""/>
+					<!--Hit/DC Mod-->
+					<label for="weaponHit"></label>
+						<input type="number" class="weaponHit"/>
+					<!--damage calculator dice size, how many and any bonus.... no room for added bonus's of poison or whatever-->
+					<label for="diceSize"></label>
+					<input type="number" class="diceSize"/>
+					<label for="diceNum"></label>
+					<input type="number" class="diceNum"/>
+					<label for="damBonus"></label>
+					<input type="number" class="damBonus"/>
+				</p>
+			</div>
+			<div class="weaponInput">
+				<p>
+					<!--weapon name-->
+					<label for="weaponName"></label>
+					Weapon Name---------HP--Dice--#----AC
+				</br>
+					<input type="text" class="weaponName" value=""/>
+					<!--Hit/DC Mod-->
+					<label for="weaponHit"></label>
+						<input type="number" class="weaponHit"/>
+					<!--damage calculator dice size, how many and any bonus.... no room for added bonus's of poison or whatever-->
+					<label for="diceSize"></label>
+					<input type="number" class="diceSize"/>
+					<label for="diceNum"></label>
+					<input type="number" class="diceNum"/>
+					<label for="damBonus"></label>
+					<input type="number" class="damBonus"/>
+				</p>
+			</div>
+			<div class="weaponInput">
+				<p>
+					<!--weapon name-->
+					<label for="weaponName"></label>
+					Weapon Name---------HP--Dice--#----AC
+				</br>
+					<input type="text" class="weaponName" value=""/>
+					<!--Hit/DC Mod-->
+					<label for="weaponHit"></label>
+						<input type="number" class="weaponHit"/>
+					<!--damage calculator dice size, how many and any bonus.... no room for added bonus's of poison or whatever-->
+					<label for="diceSize"></label>
+					<input type="number" class="diceSize"/>
+					<label for="diceNum"></label>
+					<input type="number" class="diceNum"/>
+					<label for="damBonus"></label>
+					<input type="number" class="damBonus"/>
+				</p>
+			</div>
+
+
+
+					<button type="button" onclick="rollUp('fight')">Roll Up!</button>
+		</div>
+</div>
+<div id="footer">
+	Share with other nerds!
+</div>
+
+</body>
+</html>

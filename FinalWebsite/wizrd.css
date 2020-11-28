@@ -1,0 +1,139 @@
+body{
+  background-image: url(https://i.imgur.com/rtQCNPi.jpg);
+  font:serif;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+/* taken from https://stackoverflow.com/questions/22709792/input-type-number-wont-resize*/
+input[type=number]{
+    width: 2em;
+}
+
+#wrapper{
+
+}
+
+#title{
+  height: 200px;
+  width: 80%;
+  margin-left: 10%;
+  background-color: #800000;
+  text-align: center;
+  font-size: 80px;
+}
+
+#wizard{
+    height:auto;
+    width: 400px;
+    background-color: #800000;
+    margin: 50px;
+    margin-left: 150px;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+}
+
+#fighter{
+  height:auto;
+  width: 400px;
+  background-color: #800000;
+  margin: 50px;
+  margin-left: 75px;
+  float: left;
+  text-align: center;
+  font-size: 30px;
+}
+/*main stat section at top of both columns*/
+.statinput{
+      text-align: left;
+      font-size: 20px;
+      margin-left: 100px;
+}
+
+
+.ac{
+  float: right;
+  margin-right: 100px;
+}
+
+.pb{
+  float: right;
+  margin-right: 100px;
+}
+
+.int{
+  float: right;
+  margin-right: 100px;
+}
+
+.hp{
+  float: right;
+  margin-right: 100px;
+}
+
+/*wizared specific*/
+#spellSlots{
+  font-size: 20px;
+  text-align: left;
+  margin-left: 100px;
+}
+#spellSlots input[type=number]{
+  float: right;
+  margin-right: 100px;
+}
+
+#first{
+
+}
+
+#second{
+
+}
+
+#third{
+
+}
+
+#fourth{
+
+}
+
+#fifth{
+
+}
+
+#sixth{
+
+}
+
+#sevemth{
+
+}
+
+#eighth{
+}
+
+#ninth{
+}
+
+/*fighter specific*/
+.weaponInput{
+  margin-left: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+
+
+
+/*footer*/
+
+#footer{
+  height: 100px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 75%;
+  background-color: #800000;
+  text-align: right;
+  font-size: 20px;
+}
