@@ -119,7 +119,7 @@ body {
  cursor:crosshair;
  text-align: center;
 }
-@keyframes navs {
+@keyframes navs {/*Data, Refsnes. CSS Animations, 2020, www.w3schools.com/css/css3_animations.asp. */
   from {width:10%; height: 20%; background-color:#D7B6ED }
   to {width:20%;height: 40% ; background-color: red;}
 }
